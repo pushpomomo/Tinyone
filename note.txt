@@ -1,0 +1,197 @@
+psd to html/psd to bootstrap
+psd to html responsive with bootstrap 
+html,css,bootstrap,js,jq
+font--------
+pt sans
+bold-700
+regular-400
+font-family: 'pt sans', sans-serif;
+color------ 
+black-#010101
+ash-#898989
+yellow-#fcdb00
+ash-blue-#313841
+light-ash-#555555
+
+responsive Check every project ====
+xxl-1440 -(1600 -1800 -2100)Check after complete project
+xl -1200 
+lg -1024
+
+md -768
+
+sm -576
+col -320
+
+header-----
+     xxl/xl/lg    md     sm/col
+manu     22       22
+
+slider-----
+     xxl/xl/lg    md     sm/col
+padding----
+ xxl/xl/lg    md     sm/col
+  100-120     80     50-70
+header-top-buttom  
+     20px     20px     10px
+
+h1    32      32       25
+h2    20      20       18
+p     16      16       16/15
+icon  42      42       35
+pb    100     100      60 
+
+feature----contact
+padding--  xxl/xl/lg    md     sm/col
+             pt-100     80     50
+             pb-120     100    70 
+
+font-size---
+h1           32px       32px   25    
+p            20px       20px   16
+
+h2    
+p
+mt{margin top}70px       50     30 
+
+
+feature layout ---
+col-12 row-3/col-4=12 col 3*4 row=12
+ 
+1 row=12 3/4 =12 
+col----12=3 col=icon    3
+          9 col=content 9
+          take- 4 col for single item
+          *icon-download example
+icon      50          50         35
+h2        22          22         20/18
+p         16          16         16
+
+
+
+
+
+
+<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+        <div class="f_1">
+          <address class="mb-0">
+            HALOVIETNAM LTD <br>
+            66, Dang Van ngu, Dong Da <br>
+            Hanoi, Vietnam <br>
+            contact@halovietnam.com <br>
+            +844 35149182
+          </address>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3 col-6">
+        <div class="f_2">
+          <p class="mb-0"><a href="#">Examples</a></p>
+          <p class="mb-0"><a href="#">Shop</a></p>
+          <p class="mb-0"><a href="#">License</a></p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3 col-6">
+      <div class="col-lg-2">
+        <div class="f_2">
+          <p class="mb-0"><a href="#">Contact</a></p>
+          <p class="mb-0"><a href="#">About</a></p>
+          <p class="mb-0"><a href="#">Privacy</a></p>
+          <p class="mb-0"><a href="#">Terms</a></p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3 col-6">
+      <div class="col-lg-2">
+        <div class="f_2">
+          <p class="mb-0"><a href="#">Download</a></p>
+          <p class="mb-0"><a href="#">Support</a></p>
+          <p class="mb-0"><a href="#">Documents</a></p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3 col-6">
+      <div class="col-lg-2">
+        <div class="f_2">
+          <p class="mb-0"><a href="#">Media</a></p>
+          <p class="mb-0"><a href="#">Blog</a></p>
+          <p class="mb-0"><a href="#">Forums</a></p>
+        </div>
+      </div>
+      </div>
+.f_1{}
+.f_1 address{
+     color: #ffffff;
+}
+.f_2{}
+.f_2 p a{
+     color: #ffffff;
+     text-decoration: none;
+}
+.contact{
+     margin-bottom: 100px;
+}
+.contact{
+     background-color: #010101;
+}
+.yellow{
+     color: #fcdb00;
+}
+.ash{
+     color: #898989;
+}
+
+.c_input{
+     height: 50px;
+     font-family: 'pt sans', sans-serif;
+    color: #898989;
+    padding: 15px 20px;
+}
+.c_submit{
+     width: 100%;
+    height: 50px;
+    background-color: #fcdb00;
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+}
+.c_icon{}
+.c_icon li{
+     margin-right: 30px !important;
+}
+.c_icon li:last-child{
+     margin-right: 0 !important;
+}
+.c_icon li i{
+     font-size: 42px;
+     color: #fcdb00;
+     transition: .3s;
+}
+.c_icon li i:hover{
+     color: #ffffff;
+}
+/*contact end*/
+
+<section class="contact" id="contact">
+  <div class="container">
+  <!-- 1st row -->
+  <div class="row justify-content-center">
+       <div class="col-lg-5">
+         <div class="c_icon text-center">
+           <ul class="list-inline mb-0">
+             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-facebook">
+             </i></a></li>
+             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-twitter">
+             </i></a></li>
+             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-google-plus">
+             </i></a></li>
+             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-pinterest">
+             </i></a></li>
+           </ul>
+         </div>
+       </div>  
+    </div>
+  </div>
+</section>
+   </div>
